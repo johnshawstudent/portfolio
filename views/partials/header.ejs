@@ -2,11 +2,26 @@
 <html>
 <head>
 	<title><%= title %></title>
-	<link rel='stylesheet' href='/stylesheets/style.css' />
+	 <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      
+	      <!--import jquery-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        	<!-- inified materialize js -->
+ 	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  	<!-- Compiled and minified CSS -->
+ 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+ 	   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+ 	 <!-- custom sytles -->
+
+	 <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
-<nav>
-	<ul>
+<nav class="blue darken-4">
+		<a href="/" class="brand-logo">John Shaw</a>
+		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	<ul id="nav-mobile" class="right hide-on-med-and-down">
 		<li><a href="/">Home</a></li>
 		<li><a href="/about">About Me</a></li>
 		<li><a href="/projects">Projects</a></li>
