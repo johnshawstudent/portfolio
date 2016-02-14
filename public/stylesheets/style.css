@@ -6,6 +6,24 @@ body {
 a {
   color: #00B7FF;
 }
+.center {
+	text-align: center;
+}
+.large-icons .material-icons {
+	font-size: 4em;
+}
+h1 {
+	font-size: 2.5rem;
+	border-bottom: 2px solid #ededed;
+	margin-bottom: 40px;
+}
+h2 {
+	font-size: 1.8em;
+	line-height: 80%;
+}
+.right {
+	float: right;
+}
 
 /******************************navigation
 *******************************************/
@@ -14,4 +32,14 @@ nav .brand-logo {
 }
 nav ul {
 	padding-right: 20px;
+}
+
+/*****************************footer
+****************************************/
+footer {
+	padding: 20px;
+	color: white;
+}
+footer a {
+	color: white;
 }
