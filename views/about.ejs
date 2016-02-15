@@ -1,6 +1,6 @@
 <%- include partials/header.ejs %>
 <h1><%= title %></h1>
-<div class="row">
+<div class="row about-me">
   <div class="col s6">
     <ul class="collapsible" data-collapsible="accordion">
       <li>
@@ -9,20 +9,34 @@
       </li>
       <li>
         <div class="collapsible-header"><i class="material-icons">school</i>Education</div>
-        <div class="collapsible-body"><p>4 year BA in Psychology</p><p>Currently in last semester of Web Design and Development at Georgian College</p></div>
+        <div class="collapsible-body"><p>4 year BA in Psychology at the University of Western Ontario</p>
+        <p>Currently in last semester of Web Design and Development at Georgian College</p></div>
       </li>
       <li>
         <div class="collapsible-header"><i class="material-icons">star</i>Skills</div>
-        <div class="collapsible-body"><p>HTML5, CSS3, JavaScript, PHP, Node.js, AdWords, Analytics, MOZ, SEMrush</p></div>
+        <div class="collapsible-body">
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Node.js</li>
+            <li>Google AdWords</li>
+            <li>Google Analytics</li>
+            <li>SEO</li>
+          </ul>
+        </div>
       </li>
       <li>
         <div class="collapsible-header"><i class="material-icons">laptop mac</i>Experience</div>
-        <div class="collapsible-body"><p>3 years working as a freelancer at <a href="http://www.branchoutmarketing.ca" target="_blank">Branch Out Marketing</a></p></div>
+        <div class="collapsible-body"><p>3 years working as a freelancer at <a href="http://www.branchoutmarketing.ca" target="_blank">Branch Out Marketing</a></p>
+          <p>Check out my <a href="/projects">portfolio</a></p>
+        </div>
       </li>
     </ul>
   </div>
   <div class="col s6">
     <img src="images/john.png" title="John's profile pic">
   </div>
-</div> <!-- row -->
+  </div> <!-- row -->
   <%- include partials/footer.ejs %>
