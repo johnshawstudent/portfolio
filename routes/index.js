@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+port = process.env.PORT || 1337;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
